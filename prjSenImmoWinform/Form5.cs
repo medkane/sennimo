@@ -377,5 +377,25 @@ namespace prjSenImmoWinform
 
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var clients = db.Clients.Where(cl => cl.Contrats.Where(ct => ct.Statut == StatutContrat.Actif).Count() > 1).ToList();
+
+                MessageBox.Show("terminé");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur " + ex.Message);
+
+            }
+        }
     }
 }
+
+
+
+
+

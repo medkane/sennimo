@@ -896,3 +896,4 @@ E:\med\Prosopis V4\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJC
 E:\med\Prosopis V4\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Models.FrmRepriseDD.resources
 E:\med\Prosopis V4\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Properties.Resources.resources
 E:\med\Prosopis V4\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.GenerateResource.Cache
+E:\med\Prosopis V4\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementType.resources

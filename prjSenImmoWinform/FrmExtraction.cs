@@ -530,6 +530,7 @@ namespace prjSenImmoWinform
                             lvResult.Items.Add(lviClient);
                         }
                         #endregion 
+                       
                     }
                     else
                     {
@@ -829,6 +830,7 @@ namespace prjSenImmoWinform
                             lvResult.Items.Add(lviClient);
                         }
                         #endregion
+                        txtTotal.Text = prospects.Count.ToString("### ##0");
                     }
                 }
                 cmdExporter.Enabled = true;
@@ -854,7 +856,7 @@ namespace prjSenImmoWinform
                 {
                     if (rbClients.Checked)
                     {
-                        var contrats = db.Contrats.Where(cont => cont.Statut!= StatutContrat.Désisté && cont.Statut != StatutContrat.Résilié).ToList();
+                        var contrats = db.Contrats.Where(cont => cont.Statut != StatutContrat.Désisté && cont.Statut != StatutContrat.Résilié).ToList();
                         if (rbAKYS.Checked)
                         {
                             contrats = contrats.Where(cont => cont.ProjetId == 1).ToList();
@@ -963,7 +965,7 @@ namespace prjSenImmoWinform
                                 case "pays":
                                     Country pays = (Country)item.Tag;
                                     if (item.SubItems[1].Text.Trim().ToLower() == "égal")
-                                        contrats = contrats.Where(c => c.Client.Country!=null && c.Client.Country.Id == pays.Id).ToList();
+                                        contrats = contrats.Where(c => c.Client.Country != null && c.Client.Country.Id == pays.Id).ToList();
                                     else
                                         if (item.SubItems[1].Text.Trim().ToLower() == "est différent de")
                                         contrats = contrats.Where(c => c.Client.Country.Id != pays.Id).ToList();
@@ -1107,7 +1109,8 @@ namespace prjSenImmoWinform
                                     }
 
                                 if (champ == "Nationalité")
-                                    lviClient.SubItems.Add(contrat.Client.Nationalite);
+                                    lviClient.SubItems.Add(contrat.Client.Nationalite)
+                                        ;
 
                                 if (champ == "Pays")
                                     lviClient.SubItems.Add(contrat.Client.Pays);
@@ -1232,7 +1235,8 @@ namespace prjSenImmoWinform
                             }
                             lvResult.Items.Add(lviClient);
                         }
-                        #endregion 
+                        #endregion
+                        txtTotal.Text = contrats.Count.ToString("### ##0");
                     }
                     else
                     {
@@ -1504,8 +1508,8 @@ namespace prjSenImmoWinform
 
                                 if (champ == "Numéro Lot")
                                     if (option != null)
-                                         if (!option.Lot.LotVirtuel)
-                                        lviClient.SubItems.Add(option.Lot.NumeroLot);
+                                        if (!option.Lot.LotVirtuel)
+                                            lviClient.SubItems.Add(option.Lot.NumeroLot);
                                         else
                                             lviClient.SubItems.Add("");
                                     else
@@ -1552,6 +1556,8 @@ namespace prjSenImmoWinform
                             lvResult.Items.Add(lviClient);
                         }
                         #endregion
+
+                        txtTotal.Text = prospects.Count.ToString("### ##0");
                     }
                 }
                 cmdExporter.Enabled = true;

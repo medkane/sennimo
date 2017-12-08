@@ -17,8 +17,8 @@ namespace prjSenImmoWinform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new prjGeScout.FrmSplash());
-            Application.Run(new FrmConnexion());
+            //Application.Run(new prjGeScout.FrmSplash());
+            Application.Run(new Form5());
         }
     }
 }

@@ -12,6 +12,7 @@ namespace prjSenImmoWinform.Models
         public string Description { get; set; }
         public string LibelleTechnique { get; set; }
         public string LibelleCommercial { get; set; }
+        public string TypeAvancement { get; set; }
         public int ordre  { get; set; }
         public bool StatutTermine { get; set; }
         //public TypeEncaissement? TypeEncaissement { get; set; }

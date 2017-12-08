@@ -94,6 +94,8 @@
             this.lvResult = new System.Windows.Forms.ListView();
             this.cmdExporter = new System.Windows.Forms.Button();
             this.cmdFermer = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtTotal = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -458,6 +460,8 @@
             // 
             // splitContainer2.Panel2
             // 
+            this.splitContainer2.Panel2.Controls.Add(this.txtTotal);
+            this.splitContainer2.Panel2.Controls.Add(this.label6);
             this.splitContainer2.Panel2.Controls.Add(this.label4);
             this.splitContainer2.Panel2.Controls.Add(this.lvResult);
             this.splitContainer2.Size = new System.Drawing.Size(985, 328);
@@ -551,7 +555,7 @@
             this.lvResult.HideSelection = false;
             this.lvResult.Location = new System.Drawing.Point(5, 29);
             this.lvResult.Name = "lvResult";
-            this.lvResult.Size = new System.Drawing.Size(795, 292);
+            this.lvResult.Size = new System.Drawing.Size(795, 270);
             this.lvResult.TabIndex = 0;
             this.lvResult.UseCompatibleStateImageBehavior = false;
             this.lvResult.View = System.Windows.Forms.View.Details;
@@ -582,6 +586,24 @@
             this.cmdFermer.UseVisualStyleBackColor = true;
             this.cmdFermer.Click += new System.EventHandler(this.cmdFermer_Click);
             // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(668, 305);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Total";
+            // 
+            // txtTotal
+            // 
+            this.txtTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTotal.Location = new System.Drawing.Point(700, 302);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(100, 20);
+            this.txtTotal.TabIndex = 5;
+            // 
             // FrmExtraction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -608,6 +630,7 @@
             this.cmsCriteres.ResumeLayout(false);
             this.splitContainer2.Panel1.ResumeLayout(false);
             this.splitContainer2.Panel2.ResumeLayout(false);
+            this.splitContainer2.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -652,5 +675,7 @@
         private System.Windows.Forms.RadioButton rbKERRIA;
         private System.Windows.Forms.RadioButton rbAKYS;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox txtTotal;
+        private System.Windows.Forms.Label label6;
     }
 }

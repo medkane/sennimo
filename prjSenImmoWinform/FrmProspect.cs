@@ -128,6 +128,13 @@ namespace prjSenImmoWinform
                     return;
                 }
 
+                if (cmbPays.SelectedIndex == -1)
+                {
+                    MessageBox.Show(this, "Veuillez choisir le pays",
+                             "Prosopis -  Gestion des prospects", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 DateTime dDateNaissance = DateTime.Parse("01/01/1900");
                 DateTime dDateDelivrancePiece = DateTime.Parse("01/01/1900");
                 DateTime dDateNaissanceConjoint = DateTime.Parse("01/01/1900");

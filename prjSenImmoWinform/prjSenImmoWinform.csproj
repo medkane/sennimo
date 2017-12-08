@@ -838,6 +838,10 @@
     <Compile Include="Migrations\201712060959125_MAJContratTauxRemiseAccordee.Designer.cs">
       <DependentUpon>201712060959125_MAJContratTauxRemiseAccordee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712081444594_MAJTypeEtatAvancementType.cs" />
+    <Compile Include="Migrations\201712081444594_MAJTypeEtatAvancementType.Designer.cs">
+      <DependentUpon>201712081444594_MAJTypeEtatAvancementType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Action.cs" />
     <Compile Include="Models\ActiviteCommerciale.cs" />
@@ -1357,6 +1361,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712060959125_MAJContratTauxRemiseAccordee.resx">
       <DependentUpon>201712060959125_MAJContratTauxRemiseAccordee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712081444594_MAJTypeEtatAvancementType.resx">
+      <DependentUpon>201712081444594_MAJTypeEtatAvancementType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Models\FrmRepriseDD.resx">
       <DependentUpon>FrmRepriseDD.cs</DependentUpon>
