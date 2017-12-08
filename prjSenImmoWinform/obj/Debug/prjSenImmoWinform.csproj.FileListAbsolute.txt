@@ -1,0 +1,730 @@
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe.config
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.exe
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.pdb
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.pdb
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.dll
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.dll
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\System.Windows.Forms.Ribbon35.dll
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.xml
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.xml
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FormSelectionneurLot.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmActiviteCommerciale.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAffectationCommercial.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAgent.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmApporteurAffaire.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmEncaissement.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmFraisDossier.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClientsEtProspect.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeProspects.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierClient.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLotEnOptions.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMenuGeneral.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOption.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmProspect.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmContractualisation.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLot.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmIlot.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClients.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmNouvelEncaissement.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementDepot.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementResa.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSelectionRecouvrement.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSoldeToutCompte.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVente.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVilla.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsIlot.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Properties.Resources.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.GenerateResource.Cache
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOptionProspect.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCommissionsApporteurAffaire.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRemboursement.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.ResolveComReference.cache
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form1.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form3.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csprojResolveAssemblyReference.cache
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.Reinit.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjGeScout.FrmSplash.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\fr\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmConnexion.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRoleFormAccess.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement2.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement3.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement4.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRole.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAccueilCommercial.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form2.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReporting.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectOrigine.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectTypeOrigine.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeOrigine.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeOption.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEtatAvancementStatut.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleCommercial.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementStatutTermine.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleTechnique.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingVentes.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingEncaissements.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratValide.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratSolde.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentChefEquipe.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentIsChefEquipe.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmObjectivation.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentObjectifAnnuel.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingObjectifVentes.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentAutresObjectifs.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAppelDeFondGenereCourrierEnvoye.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJFactureGenereCourrierEnvoye.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingTechnique.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingMarketing.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJObjectifsDateLimite.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDTauxAtteinte.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRepriseDeDonnees.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNumeroClient.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEtatAvancement.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEncaissements.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements2.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissement2.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportCompteTiers.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientImporteCompteTiers.resources
+D:\Med\Projet Immociel\prjWinform\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementModePaiement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe.config
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.pdb
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.dll
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.dll
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.xml
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.xml
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.ResolveComReference.cache
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form1.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form2.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form3.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FormSelectionneurLot.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmActiviteCommerciale.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAffectationCommercial.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAgent.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmApporteurAffaire.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCommissionsApporteurAffaire.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmConnexion.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmEncaissement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAccueilCommercial.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmFraisDossier.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmGenerationEcheances.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeActivitesCommerciales.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClientsEtProspect.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeProspects.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierClient.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLotEnOptions.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMDI.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMenuGeneral.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmObjectivation.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOption.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOptionProspect.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmProspect.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmContractualisation.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLot.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmIlot.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClients.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmNouvelEncaissement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementDepot.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementResa.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRemboursement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReporting.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingEncaissements.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingMarketing.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingObjectifVentes.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingTechnique.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingVentes.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRepriseDeDonnees.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRoleFormAccess.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSelectionRecouvrement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSoldeToutCompte.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjGeScout.FrmSplash.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeOrigine.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVente.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVilla.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsIlot.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.Reinit.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement2.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement3.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement4.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRole.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectOrigine.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectTypeOrigine.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeOption.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEtatAvancementStatut.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleCommercial.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementStatutTermine.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleTechnique.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratValide.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratSolde.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentChefEquipe.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentIsChefEquipe.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentObjectifAnnuel.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentAutresObjectifs.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAppelDeFondGenereCourrierEnvoye.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJFactureGenereCourrierEnvoye.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJObjectifsDateLimite.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDTauxAtteinte.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNumeroClient.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEtatAvancement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEncaissements.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements2.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissement2.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportCompteTiers.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientImporteCompteTiers.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementModePaiement.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientProspectEdite.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRecouvrementResaDepot.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDGenerationEcheance.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Properties.Resources.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.GenerateResource.Cache
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.exe
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.pdb
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommerciale.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csprojResolveAssemblyReference.cache
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierProspect.resources
+F:\med\Projets\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeStatut.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe.config
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.ResolveComReference.cache
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.exe
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.pdb
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.pdb
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.dll
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.dll
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.xml
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.xml
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\fr\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csprojResolveAssemblyReference.cache
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form1.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form2.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form3.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FormSelectionneurLot.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmActiviteCommerciale.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAffectationCommercial.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAgent.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmApporteurAffaire.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCommissionsApporteurAffaire.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmConnexion.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierProspect.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmEncaissement.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAccueilCommercial.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmFraisDossier.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmGenerationEcheances.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeActivitesCommerciales.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClientsEtProspect.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeProspects.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierClient.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLotEnOptions.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMDI.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMenuGeneral.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmObjectivation.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOption.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOptionProspect.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmProspect.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmContractualisation.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLot.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmIlot.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClients.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmNouvelEncaissement.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementDepot.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementResa.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRemboursement.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReporting.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingEncaissements.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingMarketing.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingObjectifVentes.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingTechnique.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingVentes.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRepriseDeDonnees.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRoleFormAccess.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSelectionRecouvrement.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSoldeToutCompte.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjGeScout.FrmSplash.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeOrigine.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVente.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVilla.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsIlot.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.Reinit.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement2.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement3.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement4.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRole.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectOrigine.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectTypeOrigine.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeOption.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEtatAvancementStatut.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleCommercial.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementStatutTermine.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleTechnique.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratValide.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratSolde.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentChefEquipe.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentIsChefEquipe.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentObjectifAnnuel.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentAutresObjectifs.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAppelDeFondGenereCourrierEnvoye.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJFactureGenereCourrierEnvoye.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJObjectifsDateLimite.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDTauxAtteinte.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNumeroClient.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEtatAvancement.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEncaissements.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements2.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissement2.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportCompteTiers.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientImporteCompteTiers.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementModePaiement.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientProspectEdite.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRecouvrementResaDepot.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDGenerationEcheance.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommerciale.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeStatut.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Properties.Resources.resources
+D:\Med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.GenerateResource.Cache
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe.config
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.pdb
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.dll
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.dll
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.xml
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.xml
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.ResolveComReference.cache
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.DAL.FrmContrat.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form1.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form2.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form3.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form4.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form5.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FormSelectionneurLot.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmActiviteCommerciale.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAffectationCommercial.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAgent.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmApporteurAffaire.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmChangePassword.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCommissionsApporteurAffaire.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmConnexion.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCooperative.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierProspect.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmEncaissement.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAccueilCommercial.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmFraisDossier.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmGenerationEcheances.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeActivitesCommerciales.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClientsEtProspect.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeOptions.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeProspects.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierClient.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLotEnOptions.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMDI.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMenuGeneral.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMesActivitesCommerciales.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmObjectivation.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOption.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOptionProspect.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmProspect.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmContractualisation.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLot.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmIlot.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClients.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmNouvelEncaissement.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementDepot.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementResa.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRemboursement.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReporting.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingEncaissements.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingMarketing.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingObjectifVentes.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingTechnique.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingVentes.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRepriseDeDonnees.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRoleFormAccess.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmScheduler.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSelectionRecouvrement.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSoldeToutCompte.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjGeScout.FrmSplash.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeOrigine.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVente.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVilla.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsIlot.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.Reinit.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement2.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement3.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement4.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRole.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectOrigine.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectTypeOrigine.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeOption.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEtatAvancementStatut.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleCommercial.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementStatutTermine.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleTechnique.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratValide.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratSolde.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentChefEquipe.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentIsChefEquipe.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentObjectifAnnuel.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentAutresObjectifs.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAppelDeFondGenereCourrierEnvoye.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJFactureGenereCourrierEnvoye.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJObjectifsDateLimite.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDTauxAtteinte.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNumeroClient.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEtatAvancement.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEncaissements.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements2.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissement2.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportCompteTiers.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientImporteCompteTiers.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementModePaiement.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientProspectEdite.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRecouvrementResaDepot.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDGenerationEcheance.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommerciale.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeStatut.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeRappel.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeRappel2.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectCommentaires.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientCommentaireProspect.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDateSouscriptionProspect.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDateSouscriptionProspect2.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJclientProspectAffecte.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNotesProspect.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJOptionRemise.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Properties.Resources.resources
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.GenerateResource.Cache
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.exe
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.pdb
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csprojResolveAssemblyReference.cache
+E:\med\Prosopis-AKYS-24012017\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratContratDepotValide.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe.config
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.pdb
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\AquaGauge.dll
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EAGetMail45.dll
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.dll
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.dll
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.xml
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.xml
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csprojResolveAssemblyReference.cache
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.ResolveComReference.cache
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.DAL.FrmContrat.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form1.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form3.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form4.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form5.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FormSelectionneurLot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmActiviteCommerciale.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAdministrationSI.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAdminServices.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAffectationCommercial.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAgent.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmApporteurAffaire.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmChangePassword.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCommissionsApporteurAffaire.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmConnexion.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCooperative.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmEncaissement.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAccueilCommercial.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmExtraction.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmExtractionProspectSiteWeb.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmFraisDossier.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmGenerationEcheances.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeActivitesCommerciales.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClientsEtProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeOptions.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeProspects.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierClient.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLotEnOptions.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMDI.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMenuGeneral.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMesActivitesCommerciales.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmObjectivation.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOption.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOptionProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmContractualisation.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmIlot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClients.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmNouvelEncaissement.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementResa.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRemboursement.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReporting.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingEncaissements.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingMarketing.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingObjectifVentes.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingTechnique.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingVentes.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRepriseDeDonnees.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRoleFormAccess.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmScheduler.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSelectionRecouvrement.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSoldeToutCompte.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjGeScout.FrmSplash.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeOrigine.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVente.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVenteDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVilla.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsIlot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.Reinit.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement3.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement4.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRole.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectOrigine.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectTypeOrigine.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeOption.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEtatAvancementStatut.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleCommercial.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementStatutTermine.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleTechnique.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratValide.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratSolde.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentChefEquipe.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentIsChefEquipe.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentObjectifAnnuel.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentAutresObjectifs.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAppelDeFondGenereCourrierEnvoye.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJFactureGenereCourrierEnvoye.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJObjectifsDateLimite.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDTauxAtteinte.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNumeroClient.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEtatAvancement.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEncaissements.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissement2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportCompteTiers.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientImporteCompteTiers.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementModePaiement.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientProspectEdite.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRecouvrementResaDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDGenerationEcheance.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommerciale.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeStatut.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeRappel.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeRappel2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectCommentaires.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientCommentaireProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDateSouscriptionProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDateSouscriptionProspect2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJclientProspectAffecte.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNotesProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJOptionRemise.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratContratDepotValide.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratAjoutDureeDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJIlotLivraison.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientStatutProspect.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJApporteurAffaireAgence.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.AMJCooperative.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementProspectAtteinteSeuil.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsResa.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsResa2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsResa3.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDEncaissementResa.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientResa.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientResa1.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncSaari.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncSaari2.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Models.FrmRepriseDD.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Properties.Resources.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.GenerateResource.Cache
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.exe
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.pdb
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsRecouvrementResa.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJOptionDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientsDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDepotsContratSigne.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsRecouvrementDepot.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDNoteContrat.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratAvenant.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementLettre.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeContrat.resources
+E:\med\Prosopis-AKYS\prjSenImmoWinform\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeContrat.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe.config
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.exe
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\prjSenImmoWinform.pdb
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\AquaGauge.dll
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\EntityFramework.dll
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.dll
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\EntityFramework.xml
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\bin\Debug\EntityFramework.SqlServer.xml
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.ResolveComReference.cache
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.DAL.FrmContrat.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form1.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form3.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form4.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Form5.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FormSelectionneurLot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmActiviteCommerciale.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAdministrationSI.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAdminServices.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAffectationCommercial.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAgent.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmApporteurAffaire.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmChangePassword.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCommissionsApporteurAffaire.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmConnexion.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmCooperative.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsRecouvrementDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsRecouvrementResa.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmEncaissement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmAccueilCommercial.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmExtraction.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmExtractionProspectSiteWeb.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmFraisDossier.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmGenerationEcheances.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeActivitesCommerciales.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClientsEtProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeOptions.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeProspects.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDossierClient.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLotEnOptions.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMDI.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMenuGeneral.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmMesActivitesCommerciales.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmObjectivation.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOption.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmOptionProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmContractualisation.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmLot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmIlot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmListeClients.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmNouvelEncaissement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRecouvrementResa.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRemboursement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReporting.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingEncaissements.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingMarketing.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingObjectifVentes.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingTechnique.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmReportingVentes.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRepriseDeDonnees.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmRoleFormAccess.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmScheduler.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSelectionFormEncaissement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSelectionRecouvrement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmSoldeToutCompte.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjGeScout.FrmSplash.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeContrat.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmTypeOrigine.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVente.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVenteDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmVilla.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.FrmDetailsIlot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.Reinit.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement3.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDRoleManagement4.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRole.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectOrigine.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectTypeOrigine.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeOption.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEtatAvancementStatut.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleCommercial.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementStatutTermine.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeEtatAvancementLibelleTechnique.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratValide.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratSolde.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentChefEquipe.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentIsChefEquipe.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentObjectifAnnuel.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentAutresObjectifs.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAppelDeFondGenereCourrierEnvoye.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJFactureGenereCourrierEnvoye.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJObjectifsDateLimite.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDTauxAtteinte.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNumeroClient.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEtatAvancement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportEncaissements.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissements2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncaissement2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDImportCompteTiers.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientImporteCompteTiers.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementModePaiement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientProspectEdite.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJAgentRecouvrementResaDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDGenerationEcheance.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommerciale.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeStatut.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeRappel.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJActiviteCommercialeRappel2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJProspectCommentaires.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientCommentaireProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDateSouscriptionProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDateSouscriptionProspect2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJclientProspectAffecte.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientNotesProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJOptionRemise.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratContratDepotValide.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratAjoutDureeDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJIlotLivraison.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientStatutProspect.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJApporteurAffaireAgence.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.AMJCooperative.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementProspectAtteinteSeuil.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsResa.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsResa2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsResa3.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDEncaissementResa.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientResa.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientResa1.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncSaari.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJImportEncSaari2.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDClientsDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJOptionDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientsDepot.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientDepotsContratSigne.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDNoteContrat.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratAvenant.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEncaissementLettre.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeContrat.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJV3.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJV31.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJIlotCommentaire.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeVillaTypeConstruction.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJLotNiveauAppartement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDProjet.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeContratProjet.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.ADDTypeImmeuble.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeETatAvancementProjet.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratProjet.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeETatAvancementTypeConstruction.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeContratTypeConstruction.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeOrigineProjet.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJTypeContratNiveauEtatAvancement.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJCooperativeAgent.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJOptionDateAtteinteSeuil.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJEtatAvancementEnCours.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJClientCountry.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Models.FrmRepriseDD.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Properties.Resources.resources
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csproj.GenerateResource.Cache
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.exe
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.pdb
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.csprojResolveAssemblyReference.cache
+E:\med\Prosopis V3\Sources\prjSenImmoWinform\obj\Debug\prjSenImmoWinform.Migrations.MAJContratTauxRemiseAccordee.resources
