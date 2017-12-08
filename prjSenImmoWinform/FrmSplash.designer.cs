@@ -48,7 +48,7 @@
             this.shapeContainer1.Name = "shapeContainer1";
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.rectangleShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(419, 266);
+            this.shapeContainer1.Size = new System.Drawing.Size(435, 280);
             this.shapeContainer1.TabIndex = 1;
             this.shapeContainer1.TabStop = false;
             // 
@@ -109,7 +109,7 @@
             this.transparentLabel4.Size = new System.Drawing.Size(79, 26);
             this.transparentLabel4.TabIndex = 8;
             this.transparentLabel4.TabStop = false;
-            this.transparentLabel4.Text = "Version 4.2.10";
+            this.transparentLabel4.Text = "Version 4.2.11";
             this.transparentLabel4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.transparentLabel4.Click += new System.EventHandler(this.transparentLabel4_Click);
             // 
@@ -172,7 +172,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(419, 266);
+            this.ClientSize = new System.Drawing.Size(435, 280);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.transparentLabel5);
             this.Controls.Add(this.transparentLabel4);

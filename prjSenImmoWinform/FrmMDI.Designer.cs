@@ -90,8 +90,12 @@
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.mettreEnVeilleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.pUserResume = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.cmdDeconnexion = new System.Windows.Forms.Button();
             this.tcRoleActions = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -101,9 +105,12 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.cmdNouveauxAppelsDeFond = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.cmdGenerationEcheances = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.lbRoleUser = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -119,25 +126,18 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label37 = new System.Windows.Forms.Label();
             this.cmbProjets = new System.Windows.Forms.ComboBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.cmdGenerationEcheances = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.mnsGeneral.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.pUserResume.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tcRoleActions.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // mnsGeneral
@@ -665,6 +665,33 @@
             this.toolStrip1.Visible = false;
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::prjSenImmoWinform.Properties.Resources._009_16;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1.Text = "toolStripButton1";
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = global::prjSenImmoWinform.Properties.Resources._104_16;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton2.Text = "toolStripButton2";
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = global::prjSenImmoWinform.Properties.Resources.printer_16;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton3.Text = "toolStripButton3";
+            // 
             // pUserResume
             // 
             this.pUserResume.BackColor = System.Drawing.Color.White;
@@ -696,6 +723,19 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.Image = global::prjSenImmoWinform.Properties.Resources.logoKerria;
+            this.pictureBox3.Location = new System.Drawing.Point(47, 466);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 83);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 16;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.WaitOnLoad = true;
             // 
             // cmdDeconnexion
             // 
@@ -803,6 +843,19 @@
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // cmdGenerationEcheances
+            // 
+            this.cmdGenerationEcheances.Image = global::prjSenImmoWinform.Properties.Resources.invoice_document_bill_send_16;
+            this.cmdGenerationEcheances.Location = new System.Drawing.Point(8, 6);
+            this.cmdGenerationEcheances.Name = "cmdGenerationEcheances";
+            this.cmdGenerationEcheances.Size = new System.Drawing.Size(160, 35);
+            this.cmdGenerationEcheances.TabIndex = 244;
+            this.cmdGenerationEcheances.Text = "Générer les échéances";
+            this.cmdGenerationEcheances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cmdGenerationEcheances.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.cmdGenerationEcheances.UseVisualStyleBackColor = true;
+            this.cmdGenerationEcheances.Click += new System.EventHandler(this.cmdGenerationEcheances_Click);
+            // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -825,7 +878,16 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "4.2.10";
+            this.label1.Text = "4.2.11";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::prjSenImmoWinform.Properties.Resources.tree_archigraphs;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(37, 34);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // label6
             // 
@@ -837,6 +899,20 @@
             this.label6.Size = new System.Drawing.Size(96, 25);
             this.label6.TabIndex = 0;
             this.label6.Text = "Prosopis";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::prjSenImmoWinform.Properties.Resources.logo1;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 391);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(182, 69);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.WaitOnLoad = true;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label5
             // 
@@ -987,82 +1063,6 @@
             this.cmbProjets.Visible = false;
             this.cmbProjets.SelectedIndexChanged += new System.EventHandler(this.cmbProjets_SelectedIndexChanged);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.Image = global::prjSenImmoWinform.Properties.Resources.logoKerria;
-            this.pictureBox3.Location = new System.Drawing.Point(47, 466);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 83);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 16;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.WaitOnLoad = true;
-            // 
-            // cmdGenerationEcheances
-            // 
-            this.cmdGenerationEcheances.Image = global::prjSenImmoWinform.Properties.Resources.invoice_document_bill_send_16;
-            this.cmdGenerationEcheances.Location = new System.Drawing.Point(8, 6);
-            this.cmdGenerationEcheances.Name = "cmdGenerationEcheances";
-            this.cmdGenerationEcheances.Size = new System.Drawing.Size(160, 35);
-            this.cmdGenerationEcheances.TabIndex = 244;
-            this.cmdGenerationEcheances.Text = "Générer les échéances";
-            this.cmdGenerationEcheances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cmdGenerationEcheances.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.cmdGenerationEcheances.UseVisualStyleBackColor = true;
-            this.cmdGenerationEcheances.Click += new System.EventHandler(this.cmdGenerationEcheances_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::prjSenImmoWinform.Properties.Resources.tree_archigraphs;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(37, 34);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::prjSenImmoWinform.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 391);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(182, 69);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.WaitOnLoad = true;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::prjSenImmoWinform.Properties.Resources._009_16;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "toolStripButton1";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::prjSenImmoWinform.Properties.Resources._104_16;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton2.Text = "toolStripButton2";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = global::prjSenImmoWinform.Properties.Resources.printer_16;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "toolStripButton3";
-            // 
             // FrmMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1092,17 +1092,17 @@
             this.toolStrip1.PerformLayout();
             this.pUserResume.ResumeLayout(false);
             this.pUserResume.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tcRoleActions.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
