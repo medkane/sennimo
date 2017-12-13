@@ -34,6 +34,28 @@
             this.cmdFermer = new System.Windows.Forms.Button();
             this.cmdRechercherClients = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.rbOptionResa = new System.Windows.Forms.RadioButton();
+            this.rbToutTypeOption = new System.Windows.Forms.RadioButton();
+            this.rbOptionDepot = new System.Windows.Forms.RadioButton();
+            this.label36 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.pTypeConstruction = new System.Windows.Forms.Panel();
+            this.rbToutTypeConstruction = new System.Windows.Forms.RadioButton();
+            this.rbConstructionVilla = new System.Windows.Forms.RadioButton();
+            this.rbConstructionAppartement = new System.Windows.Forms.RadioButton();
+            this.pSource = new System.Windows.Forms.Panel();
+            this.cmbOrigines = new System.Windows.Forms.ComboBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.rbOrigineDesk = new System.Windows.Forms.RadioButton();
+            this.rbOriginePerso = new System.Windows.Forms.RadioButton();
+            this.rbToutOrigine = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.cmbProjets = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtNumeroDossier = new System.Windows.Forms.TextBox();
             this.chkAvenant = new System.Windows.Forms.CheckBox();
@@ -41,24 +63,11 @@
             this.rbEnCours = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.rbSoldes = new System.Windows.Forms.RadioButton();
-            this.pSource = new System.Windows.Forms.Panel();
-            this.cmbOrigines = new System.Windows.Forms.ComboBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.rbOrigineDesk = new System.Windows.Forms.RadioButton();
-            this.rbOriginePerso = new System.Windows.Forms.RadioButton();
-            this.rbToutOrigine = new System.Windows.Forms.RadioButton();
             this.txtNbProspects = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.chkResilie = new System.Windows.Forms.CheckBox();
             this.cmbCommercial = new System.Windows.Forms.ComboBox();
             this.chkCommercial = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.rbOptionResa = new System.Windows.Forms.RadioButton();
-            this.rbToutTypeOption = new System.Windows.Forms.RadioButton();
-            this.rbOptionDepot = new System.Windows.Forms.RadioButton();
             this.lvClients = new System.Windows.Forms.ListView();
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -86,28 +95,20 @@
             this.txtPrenom = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.label37 = new System.Windows.Forms.Label();
-            this.cmbProjets = new System.Windows.Forms.ComboBox();
-            this.pTypeConstruction = new System.Windows.Forms.Panel();
-            this.rbToutTypeConstruction = new System.Windows.Forms.RadioButton();
-            this.rbConstructionVilla = new System.Windows.Forms.RadioButton();
-            this.rbConstructionAppartement = new System.Windows.Forms.RadioButton();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgClients)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.pTypeConstruction.SuspendLayout();
             this.pSource.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.pTypeConstruction.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgClients
@@ -177,6 +178,249 @@
             this.panel1.Size = new System.Drawing.Size(1172, 515);
             this.panel1.TabIndex = 207;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.label38);
+            this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.label36);
+            this.panel4.Controls.Add(this.groupBox3);
+            this.panel4.Controls.Add(this.pTypeConstruction);
+            this.panel4.Controls.Add(this.pSource);
+            this.panel4.Controls.Add(this.panel8);
+            this.panel4.Controls.Add(this.groupBox1);
+            this.panel4.Controls.Add(this.label37);
+            this.panel4.Controls.Add(this.cmbProjets);
+            this.panel4.Location = new System.Drawing.Point(3, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1162, 40);
+            this.panel4.TabIndex = 254;
+            // 
+            // label38
+            // 
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(648, 9);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(47, 17);
+            this.label38.TabIndex = 252;
+            this.label38.Text = "Origine";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.rbOptionResa);
+            this.panel5.Controls.Add(this.rbToutTypeOption);
+            this.panel5.Controls.Add(this.rbOptionDepot);
+            this.panel5.Location = new System.Drawing.Point(458, 4);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(183, 25);
+            this.panel5.TabIndex = 235;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            // 
+            // rbOptionResa
+            // 
+            this.rbOptionResa.AutoSize = true;
+            this.rbOptionResa.Location = new System.Drawing.Point(118, 5);
+            this.rbOptionResa.Name = "rbOptionResa";
+            this.rbOptionResa.Size = new System.Drawing.Size(50, 17);
+            this.rbOptionResa.TabIndex = 229;
+            this.rbOptionResa.Text = "Résa";
+            this.rbOptionResa.UseVisualStyleBackColor = true;
+            this.rbOptionResa.CheckedChanged += new System.EventHandler(this.rbOptionResa_CheckedChanged);
+            // 
+            // rbToutTypeOption
+            // 
+            this.rbToutTypeOption.AutoSize = true;
+            this.rbToutTypeOption.Checked = true;
+            this.rbToutTypeOption.Location = new System.Drawing.Point(3, 5);
+            this.rbToutTypeOption.Name = "rbToutTypeOption";
+            this.rbToutTypeOption.Size = new System.Drawing.Size(49, 17);
+            this.rbToutTypeOption.TabIndex = 227;
+            this.rbToutTypeOption.TabStop = true;
+            this.rbToutTypeOption.Text = "Tous";
+            this.rbToutTypeOption.UseVisualStyleBackColor = true;
+            this.rbToutTypeOption.CheckedChanged += new System.EventHandler(this.rbToutTypeOption_CheckedChanged);
+            // 
+            // rbOptionDepot
+            // 
+            this.rbOptionDepot.AutoSize = true;
+            this.rbOptionDepot.Location = new System.Drawing.Point(58, 5);
+            this.rbOptionDepot.Name = "rbOptionDepot";
+            this.rbOptionDepot.Size = new System.Drawing.Size(54, 17);
+            this.rbOptionDepot.TabIndex = 228;
+            this.rbOptionDepot.Text = "Dépôt";
+            this.rbOptionDepot.UseVisualStyleBackColor = true;
+            this.rbOptionDepot.CheckedChanged += new System.EventHandler(this.rbOptionDepot_CheckedChanged);
+            // 
+            // label36
+            // 
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(396, 8);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(61, 17);
+            this.label36.TabIndex = 251;
+            this.label36.Text = "Catégorie";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Location = new System.Drawing.Point(642, -1);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(4, 33);
+            this.groupBox3.TabIndex = 236;
+            this.groupBox3.TabStop = false;
+            // 
+            // pTypeConstruction
+            // 
+            this.pTypeConstruction.Controls.Add(this.rbToutTypeConstruction);
+            this.pTypeConstruction.Controls.Add(this.rbConstructionVilla);
+            this.pTypeConstruction.Controls.Add(this.rbConstructionAppartement);
+            this.pTypeConstruction.Location = new System.Drawing.Point(188, 4);
+            this.pTypeConstruction.Name = "pTypeConstruction";
+            this.pTypeConstruction.Size = new System.Drawing.Size(200, 25);
+            this.pTypeConstruction.TabIndex = 250;
+            // 
+            // rbToutTypeConstruction
+            // 
+            this.rbToutTypeConstruction.AutoSize = true;
+            this.rbToutTypeConstruction.Checked = true;
+            this.rbToutTypeConstruction.Location = new System.Drawing.Point(4, 5);
+            this.rbToutTypeConstruction.Name = "rbToutTypeConstruction";
+            this.rbToutTypeConstruction.Size = new System.Drawing.Size(49, 17);
+            this.rbToutTypeConstruction.TabIndex = 229;
+            this.rbToutTypeConstruction.TabStop = true;
+            this.rbToutTypeConstruction.Text = "Tous";
+            this.rbToutTypeConstruction.UseVisualStyleBackColor = true;
+            // 
+            // rbConstructionVilla
+            // 
+            this.rbConstructionVilla.AutoSize = true;
+            this.rbConstructionVilla.Location = new System.Drawing.Point(64, 5);
+            this.rbConstructionVilla.Name = "rbConstructionVilla";
+            this.rbConstructionVilla.Size = new System.Drawing.Size(44, 17);
+            this.rbConstructionVilla.TabIndex = 227;
+            this.rbConstructionVilla.Text = "Villa";
+            this.rbConstructionVilla.UseVisualStyleBackColor = true;
+            // 
+            // rbConstructionAppartement
+            // 
+            this.rbConstructionAppartement.AutoSize = true;
+            this.rbConstructionAppartement.Location = new System.Drawing.Point(114, 5);
+            this.rbConstructionAppartement.Name = "rbConstructionAppartement";
+            this.rbConstructionAppartement.Size = new System.Drawing.Size(85, 17);
+            this.rbConstructionAppartement.TabIndex = 228;
+            this.rbConstructionAppartement.Text = "Appartement";
+            this.rbConstructionAppartement.UseVisualStyleBackColor = true;
+            // 
+            // pSource
+            // 
+            this.pSource.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pSource.Controls.Add(this.cmbOrigines);
+            this.pSource.Controls.Add(this.label34);
+            this.pSource.Location = new System.Drawing.Point(896, 5);
+            this.pSource.Name = "pSource";
+            this.pSource.Size = new System.Drawing.Size(259, 26);
+            this.pSource.TabIndex = 243;
+            this.pSource.Visible = false;
+            // 
+            // cmbOrigines
+            // 
+            this.cmbOrigines.BackColor = System.Drawing.SystemColors.Info;
+            this.cmbOrigines.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbOrigines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbOrigines.FormattingEnabled = true;
+            this.cmbOrigines.Location = new System.Drawing.Point(50, 3);
+            this.cmbOrigines.Name = "cmbOrigines";
+            this.cmbOrigines.Size = new System.Drawing.Size(205, 21);
+            this.cmbOrigines.TabIndex = 234;
+            this.cmbOrigines.SelectedIndexChanged += new System.EventHandler(this.cmbOrigines_SelectedIndexChanged);
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(4, 8);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(41, 13);
+            this.label34.TabIndex = 235;
+            this.label34.Text = "Source";
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.rbOrigineDesk);
+            this.panel8.Controls.Add(this.rbOriginePerso);
+            this.panel8.Controls.Add(this.rbToutOrigine);
+            this.panel8.Location = new System.Drawing.Point(697, 5);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(163, 25);
+            this.panel8.TabIndex = 241;
+            // 
+            // rbOrigineDesk
+            // 
+            this.rbOrigineDesk.AutoSize = true;
+            this.rbOrigineDesk.Location = new System.Drawing.Point(112, 5);
+            this.rbOrigineDesk.Name = "rbOrigineDesk";
+            this.rbOrigineDesk.Size = new System.Drawing.Size(50, 17);
+            this.rbOrigineDesk.TabIndex = 231;
+            this.rbOrigineDesk.Text = "Desk";
+            this.rbOrigineDesk.UseVisualStyleBackColor = true;
+            this.rbOrigineDesk.CheckedChanged += new System.EventHandler(this.rbOrigineDesk_CheckedChanged);
+            // 
+            // rbOriginePerso
+            // 
+            this.rbOriginePerso.AutoSize = true;
+            this.rbOriginePerso.Location = new System.Drawing.Point(59, 5);
+            this.rbOriginePerso.Name = "rbOriginePerso";
+            this.rbOriginePerso.Size = new System.Drawing.Size(52, 17);
+            this.rbOriginePerso.TabIndex = 230;
+            this.rbOriginePerso.Text = "Perso";
+            this.rbOriginePerso.UseVisualStyleBackColor = true;
+            this.rbOriginePerso.CheckedChanged += new System.EventHandler(this.rbOriginePerso_CheckedChanged);
+            // 
+            // rbToutOrigine
+            // 
+            this.rbToutOrigine.AutoSize = true;
+            this.rbToutOrigine.Checked = true;
+            this.rbToutOrigine.Location = new System.Drawing.Point(4, 5);
+            this.rbToutOrigine.Name = "rbToutOrigine";
+            this.rbToutOrigine.Size = new System.Drawing.Size(49, 17);
+            this.rbToutOrigine.TabIndex = 229;
+            this.rbToutOrigine.TabStop = true;
+            this.rbToutOrigine.Text = "Tous";
+            this.rbToutOrigine.UseVisualStyleBackColor = true;
+            this.rbToutOrigine.CheckedChanged += new System.EventHandler(this.rbToutOrigine_CheckedChanged);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(390, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(4, 33);
+            this.groupBox1.TabIndex = 242;
+            this.groupBox1.TabStop = false;
+            // 
+            // label37
+            // 
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(4, 8);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(41, 17);
+            this.label37.TabIndex = 230;
+            this.label37.Text = "Projet";
+            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // cmbProjets
+            // 
+            this.cmbProjets.FormattingEnabled = true;
+            this.cmbProjets.Items.AddRange(new object[] {
+            "AKYS",
+            "KERRIA"});
+            this.cmbProjets.Location = new System.Drawing.Point(49, 6);
+            this.cmbProjets.Name = "cmbProjets";
+            this.cmbProjets.Size = new System.Drawing.Size(135, 21);
+            this.cmbProjets.TabIndex = 229;
+            this.cmbProjets.SelectedIndexChanged += new System.EventHandler(this.cmbProjets_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -252,91 +496,6 @@
             this.rbSoldes.Text = "Soldés";
             this.rbSoldes.UseVisualStyleBackColor = true;
             // 
-            // pSource
-            // 
-            this.pSource.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pSource.Controls.Add(this.cmbOrigines);
-            this.pSource.Controls.Add(this.label34);
-            this.pSource.Location = new System.Drawing.Point(896, 5);
-            this.pSource.Name = "pSource";
-            this.pSource.Size = new System.Drawing.Size(259, 26);
-            this.pSource.TabIndex = 243;
-            this.pSource.Visible = false;
-            // 
-            // cmbOrigines
-            // 
-            this.cmbOrigines.BackColor = System.Drawing.SystemColors.Info;
-            this.cmbOrigines.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbOrigines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbOrigines.FormattingEnabled = true;
-            this.cmbOrigines.Location = new System.Drawing.Point(50, 3);
-            this.cmbOrigines.Name = "cmbOrigines";
-            this.cmbOrigines.Size = new System.Drawing.Size(205, 21);
-            this.cmbOrigines.TabIndex = 234;
-            this.cmbOrigines.SelectedIndexChanged += new System.EventHandler(this.cmbOrigines_SelectedIndexChanged);
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(4, 8);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(41, 13);
-            this.label34.TabIndex = 235;
-            this.label34.Text = "Source";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Location = new System.Drawing.Point(390, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(4, 33);
-            this.groupBox1.TabIndex = 242;
-            this.groupBox1.TabStop = false;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.rbOrigineDesk);
-            this.panel8.Controls.Add(this.rbOriginePerso);
-            this.panel8.Controls.Add(this.rbToutOrigine);
-            this.panel8.Location = new System.Drawing.Point(697, 5);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(163, 25);
-            this.panel8.TabIndex = 241;
-            // 
-            // rbOrigineDesk
-            // 
-            this.rbOrigineDesk.AutoSize = true;
-            this.rbOrigineDesk.Location = new System.Drawing.Point(112, 5);
-            this.rbOrigineDesk.Name = "rbOrigineDesk";
-            this.rbOrigineDesk.Size = new System.Drawing.Size(50, 17);
-            this.rbOrigineDesk.TabIndex = 231;
-            this.rbOrigineDesk.Text = "Desk";
-            this.rbOrigineDesk.UseVisualStyleBackColor = true;
-            this.rbOrigineDesk.CheckedChanged += new System.EventHandler(this.rbOrigineDesk_CheckedChanged);
-            // 
-            // rbOriginePerso
-            // 
-            this.rbOriginePerso.AutoSize = true;
-            this.rbOriginePerso.Location = new System.Drawing.Point(59, 5);
-            this.rbOriginePerso.Name = "rbOriginePerso";
-            this.rbOriginePerso.Size = new System.Drawing.Size(52, 17);
-            this.rbOriginePerso.TabIndex = 230;
-            this.rbOriginePerso.Text = "Perso";
-            this.rbOriginePerso.UseVisualStyleBackColor = true;
-            this.rbOriginePerso.CheckedChanged += new System.EventHandler(this.rbOriginePerso_CheckedChanged);
-            // 
-            // rbToutOrigine
-            // 
-            this.rbToutOrigine.AutoSize = true;
-            this.rbToutOrigine.Checked = true;
-            this.rbToutOrigine.Location = new System.Drawing.Point(4, 5);
-            this.rbToutOrigine.Name = "rbToutOrigine";
-            this.rbToutOrigine.Size = new System.Drawing.Size(49, 17);
-            this.rbToutOrigine.TabIndex = 229;
-            this.rbToutOrigine.TabStop = true;
-            this.rbToutOrigine.Text = "Tous";
-            this.rbToutOrigine.UseVisualStyleBackColor = true;
-            this.rbToutOrigine.CheckedChanged += new System.EventHandler(this.rbToutOrigine_CheckedChanged);
-            // 
             // txtNbProspects
             // 
             this.txtNbProspects.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -391,60 +550,6 @@
             this.chkCommercial.Text = "Commercial";
             this.chkCommercial.UseVisualStyleBackColor = true;
             this.chkCommercial.CheckedChanged += new System.EventHandler(this.chkCommercial_CheckedChanged);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Location = new System.Drawing.Point(642, -1);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(4, 33);
-            this.groupBox3.TabIndex = 236;
-            this.groupBox3.TabStop = false;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.rbOptionResa);
-            this.panel5.Controls.Add(this.rbToutTypeOption);
-            this.panel5.Controls.Add(this.rbOptionDepot);
-            this.panel5.Location = new System.Drawing.Point(458, 4);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(183, 25);
-            this.panel5.TabIndex = 235;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
-            // 
-            // rbOptionResa
-            // 
-            this.rbOptionResa.AutoSize = true;
-            this.rbOptionResa.Location = new System.Drawing.Point(118, 5);
-            this.rbOptionResa.Name = "rbOptionResa";
-            this.rbOptionResa.Size = new System.Drawing.Size(50, 17);
-            this.rbOptionResa.TabIndex = 229;
-            this.rbOptionResa.Text = "Résa";
-            this.rbOptionResa.UseVisualStyleBackColor = true;
-            this.rbOptionResa.CheckedChanged += new System.EventHandler(this.rbOptionResa_CheckedChanged);
-            // 
-            // rbToutTypeOption
-            // 
-            this.rbToutTypeOption.AutoSize = true;
-            this.rbToutTypeOption.Checked = true;
-            this.rbToutTypeOption.Location = new System.Drawing.Point(3, 5);
-            this.rbToutTypeOption.Name = "rbToutTypeOption";
-            this.rbToutTypeOption.Size = new System.Drawing.Size(49, 17);
-            this.rbToutTypeOption.TabIndex = 227;
-            this.rbToutTypeOption.TabStop = true;
-            this.rbToutTypeOption.Text = "Tous";
-            this.rbToutTypeOption.UseVisualStyleBackColor = true;
-            this.rbToutTypeOption.CheckedChanged += new System.EventHandler(this.rbToutTypeOption_CheckedChanged);
-            // 
-            // rbOptionDepot
-            // 
-            this.rbOptionDepot.AutoSize = true;
-            this.rbOptionDepot.Location = new System.Drawing.Point(58, 5);
-            this.rbOptionDepot.Name = "rbOptionDepot";
-            this.rbOptionDepot.Size = new System.Drawing.Size(54, 17);
-            this.rbOptionDepot.TabIndex = 228;
-            this.rbOptionDepot.Text = "Dépôt";
-            this.rbOptionDepot.UseVisualStyleBackColor = true;
-            this.rbOptionDepot.CheckedChanged += new System.EventHandler(this.rbOptionDepot_CheckedChanged);
             // 
             // lvClients
             // 
@@ -689,109 +794,16 @@
             this.splitContainer1.SplitterDistance = 44;
             this.splitContainer1.TabIndex = 209;
             // 
-            // label37
+            // button1
             // 
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(4, 8);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(41, 17);
-            this.label37.TabIndex = 230;
-            this.label37.Text = "Projet";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // cmbProjets
-            // 
-            this.cmbProjets.FormattingEnabled = true;
-            this.cmbProjets.Items.AddRange(new object[] {
-            "AKYS",
-            "KERRIA"});
-            this.cmbProjets.Location = new System.Drawing.Point(49, 6);
-            this.cmbProjets.Name = "cmbProjets";
-            this.cmbProjets.Size = new System.Drawing.Size(135, 21);
-            this.cmbProjets.TabIndex = 229;
-            this.cmbProjets.SelectedIndexChanged += new System.EventHandler(this.cmbProjets_SelectedIndexChanged);
-            // 
-            // pTypeConstruction
-            // 
-            this.pTypeConstruction.Controls.Add(this.rbToutTypeConstruction);
-            this.pTypeConstruction.Controls.Add(this.rbConstructionVilla);
-            this.pTypeConstruction.Controls.Add(this.rbConstructionAppartement);
-            this.pTypeConstruction.Location = new System.Drawing.Point(188, 4);
-            this.pTypeConstruction.Name = "pTypeConstruction";
-            this.pTypeConstruction.Size = new System.Drawing.Size(200, 25);
-            this.pTypeConstruction.TabIndex = 250;
-            // 
-            // rbToutTypeConstruction
-            // 
-            this.rbToutTypeConstruction.AutoSize = true;
-            this.rbToutTypeConstruction.Checked = true;
-            this.rbToutTypeConstruction.Location = new System.Drawing.Point(4, 5);
-            this.rbToutTypeConstruction.Name = "rbToutTypeConstruction";
-            this.rbToutTypeConstruction.Size = new System.Drawing.Size(49, 17);
-            this.rbToutTypeConstruction.TabIndex = 229;
-            this.rbToutTypeConstruction.TabStop = true;
-            this.rbToutTypeConstruction.Text = "Tous";
-            this.rbToutTypeConstruction.UseVisualStyleBackColor = true;
-            // 
-            // rbConstructionVilla
-            // 
-            this.rbConstructionVilla.AutoSize = true;
-            this.rbConstructionVilla.Location = new System.Drawing.Point(64, 5);
-            this.rbConstructionVilla.Name = "rbConstructionVilla";
-            this.rbConstructionVilla.Size = new System.Drawing.Size(44, 17);
-            this.rbConstructionVilla.TabIndex = 227;
-            this.rbConstructionVilla.Text = "Villa";
-            this.rbConstructionVilla.UseVisualStyleBackColor = true;
-            // 
-            // rbConstructionAppartement
-            // 
-            this.rbConstructionAppartement.AutoSize = true;
-            this.rbConstructionAppartement.Location = new System.Drawing.Point(114, 5);
-            this.rbConstructionAppartement.Name = "rbConstructionAppartement";
-            this.rbConstructionAppartement.Size = new System.Drawing.Size(85, 17);
-            this.rbConstructionAppartement.TabIndex = 228;
-            this.rbConstructionAppartement.Text = "Appartement";
-            this.rbConstructionAppartement.UseVisualStyleBackColor = true;
-            // 
-            // label36
-            // 
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(396, 8);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(61, 17);
-            this.label36.TabIndex = 251;
-            this.label36.Text = "Catégorie";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label38
-            // 
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(648, 9);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(47, 17);
-            this.label38.TabIndex = 252;
-            this.label38.Text = "Origine";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // panel4
-            // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.label38);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Controls.Add(this.label36);
-            this.panel4.Controls.Add(this.groupBox3);
-            this.panel4.Controls.Add(this.pTypeConstruction);
-            this.panel4.Controls.Add(this.pSource);
-            this.panel4.Controls.Add(this.panel8);
-            this.panel4.Controls.Add(this.groupBox1);
-            this.panel4.Controls.Add(this.label37);
-            this.panel4.Controls.Add(this.cmbProjets);
-            this.panel4.Location = new System.Drawing.Point(3, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1162, 40);
-            this.panel4.TabIndex = 254;
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Location = new System.Drawing.Point(7, 584);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(85, 28);
+            this.button1.TabIndex = 210;
+            this.button1.Text = "Extraction";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmListeClients
             // 
@@ -799,6 +811,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1195, 622);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.cmdFermer);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -810,23 +823,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgClients)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.pTypeConstruction.ResumeLayout(false);
+            this.pTypeConstruction.PerformLayout();
             this.pSource.ResumeLayout(false);
             this.pSource.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.pTypeConstruction.ResumeLayout(false);
-            this.pTypeConstruction.PerformLayout();
-            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -898,5 +911,6 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button1;
     }
 }

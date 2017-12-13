@@ -64,6 +64,9 @@
             this.cmdRechercherContrat = new System.Windows.Forms.Button();
             this.cmdFermer = new System.Windows.Forms.Button();
             this.ofdFichierSource = new System.Windows.Forms.OpenFileDialog();
+            this.cmdChangementLot = new System.Windows.Forms.Button();
+            this.txtNouveauLot = new System.Windows.Forms.TextBox();
+            this.lbNouveauLot = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -249,6 +252,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.cmdChangementLot);
             this.tabPage3.Controls.Add(this.button1);
             this.tabPage3.Controls.Add(this.cmdSupprimerContrat);
             this.tabPage3.Controls.Add(this.panel3);
@@ -257,7 +261,7 @@
             this.tabPage3.Controls.Add(this.cmdRechercherContrat);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(572, 384);
+            this.tabPage3.Size = new System.Drawing.Size(586, 423);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Gestion des contrats";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -267,7 +271,7 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(338, 351);
+            this.button1.Location = new System.Drawing.Point(340, 392);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 23);
             this.button1.TabIndex = 224;
@@ -280,7 +284,7 @@
             this.cmdSupprimerContrat.Enabled = false;
             this.cmdSupprimerContrat.Location = new System.Drawing.Point(438, 33);
             this.cmdSupprimerContrat.Name = "cmdSupprimerContrat";
-            this.cmdSupprimerContrat.Size = new System.Drawing.Size(116, 23);
+            this.cmdSupprimerContrat.Size = new System.Drawing.Size(135, 23);
             this.cmdSupprimerContrat.TabIndex = 4;
             this.cmdSupprimerContrat.Text = "Supprimer le contrat";
             this.cmdSupprimerContrat.UseVisualStyleBackColor = true;
@@ -292,6 +296,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.txtNouveauLot);
+            this.panel3.Controls.Add(this.lbNouveauLot);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.txtPrixDeVente);
             this.panel3.Controls.Add(this.label11);
@@ -306,7 +312,7 @@
             this.panel3.Controls.Add(this.txtTypeContrat);
             this.panel3.Location = new System.Drawing.Point(6, 33);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(426, 312);
+            this.panel3.Size = new System.Drawing.Size(426, 353);
             this.panel3.TabIndex = 3;
             // 
             // label10
@@ -453,6 +459,37 @@
             // 
             this.ofdFichierSource.FileName = "openFileDialog1";
             // 
+            // cmdChangementLot
+            // 
+            this.cmdChangementLot.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdChangementLot.Location = new System.Drawing.Point(438, 179);
+            this.cmdChangementLot.Name = "cmdChangementLot";
+            this.cmdChangementLot.Size = new System.Drawing.Size(135, 23);
+            this.cmdChangementLot.TabIndex = 225;
+            this.cmdChangementLot.Text = "Changer le lot attribué";
+            this.cmdChangementLot.UseVisualStyleBackColor = true;
+            this.cmdChangementLot.Visible = false;
+            this.cmdChangementLot.Click += new System.EventHandler(this.cmdChangementLot_Click);
+            // 
+            // txtNouveauLot
+            // 
+            this.txtNouveauLot.BackColor = System.Drawing.SystemColors.Window;
+            this.txtNouveauLot.Location = new System.Drawing.Point(90, 147);
+            this.txtNouveauLot.Name = "txtNouveauLot";
+            this.txtNouveauLot.Size = new System.Drawing.Size(100, 20);
+            this.txtNouveauLot.TabIndex = 16;
+            this.txtNouveauLot.Visible = false;
+            // 
+            // lbNouveauLot
+            // 
+            this.lbNouveauLot.AutoSize = true;
+            this.lbNouveauLot.Location = new System.Drawing.Point(11, 150);
+            this.lbNouveauLot.Name = "lbNouveauLot";
+            this.lbNouveauLot.Size = new System.Drawing.Size(69, 13);
+            this.lbNouveauLot.TabIndex = 15;
+            this.lbNouveauLot.Text = "Nouveau Lot";
+            this.lbNouveauLot.Visible = false;
+            // 
             // FrmAdministrationSI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -511,5 +548,8 @@
         private System.Windows.Forms.Button cmdSupprimer;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button cmdChangementLot;
+        private System.Windows.Forms.TextBox txtNouveauLot;
+        private System.Windows.Forms.Label lbNouveauLot;
     }
 }

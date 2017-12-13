@@ -932,7 +932,7 @@
             // 
             // cmdExporter
             // 
-            this.cmdExporter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdExporter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cmdExporter.Location = new System.Drawing.Point(6, 583);
             this.cmdExporter.Name = "cmdExporter";
             this.cmdExporter.Size = new System.Drawing.Size(92, 34);

@@ -9,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using prjSenImmoWinform.DAL;
+using Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
+
 
 namespace prjSenImmoWinform
 {
@@ -19,6 +22,7 @@ namespace prjSenImmoWinform
         private ContratRepository contratRep;
         private ColumnHeader SortingColumn = null;
         private Projet LeProjetEncours;
+        private IEnumerable<Contrat> ListeContrats;
 
         public FrmListeClients()
         {
@@ -664,5 +668,152 @@ namespace prjSenImmoWinform
                 pTypeConstruction.Enabled = false;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Cursor = Cursors.WaitCursor;
+                Microsoft.Office.Interop.Excel.Application app = new Microsoft.Office.Interop.Excel.Application();
+                Workbook wb = app.Workbooks.Add(XlSheetType.xlWorksheet);
+                Worksheet ws = (Worksheet)app.ActiveSheet;
+
+                int i = 1;
+                foreach (ColumnHeader item in lvClients.Columns)
+                {
+                    if (item.Index != 0)
+                    {
+                        ws.Cells[6, i] = item.Text;
+                        ws.Cells[6, i].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+                        ws.Cells[6, i].Font.Bold = true;
+                        i++;
+                    }
+                }
+                int m = 7;
+                foreach (ListViewItem item in lvClients.Items)
+                {
+                    for (int n = 1; n < item.SubItems.Count; n++)
+                    {
+                        ws.Cells[m, n].NumberFormat = "@";
+                        //if (Microsoft.VisualBasic.Information.IsNumeric(txtMyText.Text.Trim()))
+                        ws.Cells[m, n] = item.SubItems[n].Text;
+                        ws.Cells[m, n].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+                    }
+                    m++;
+                }
+                app.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, "Erreur lors du chargement du client:... " + ex.Message,
+                        "Prosopis - Gestion des clients", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                this.Cursor = Cursors.Default;
+            }
+        }
+
+        //private void ExporterListeContrats()
+        //{
+        //    try
+        //    {
+        //        this.Cursor = Cursors.WaitCursor;
+        //        Excel.Application xlApp;
+        //        Excel.Workbook xlWorkBook;
+        //        Excel.Worksheet xlWorkSheet;
+        //        object misValue = System.Reflection.Missing.Value;
+
+        //        xlApp = new Excel.Application();
+        //        //if (!bPrint)
+        //        xlApp.Visible = false;
+        //        //xlWorkBook = xlApp.Workbooks.Add(misValue);
+        //        string dossierTemplates = Tools.Tools.DossierTemplates;
+
+        //        xlWorkBook = xlApp.Workbooks.Open(dossierTemplates + "ListeDesClients.xltx", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
+        //        xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
+
+        //        int numOrdre = 0;
+        //        int iDepart = 8;// à partir ligne 15
+        //        DateTime dateReference = DateTime.Parse("01/01/1900");
+
+        //        foreach (var contrat in ListeContrats)
+        //        {
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 1] = contrat.Client.NomComplet;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 1].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 1].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 2] = contrat.Client.Mobile1;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 2].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 3] = contrat.Client.Email;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 3].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 3].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 4] = contrat.Client.Adresse;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 4].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 4].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 5] = contrat.DateReservation;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 5].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 5].HorizontalAlignment = Excel.XlHAlign.xlHAlignRight;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 6] = contrat.NumeroContrat;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 6].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 6].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 7] = contrat.TypeContrat.LibelleTypeContrat;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 7].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 7].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 8] = contrat.Lot.NumeroLot;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 8].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 8].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 9] = contrat.Commercial.NomComplet;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 9].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 9].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 10] = contrat.Factures.Where(f => f.TypeFacture == TypeFacture.Echeance && f.Echue == true && f.FacturePayee == false).Count().ToString();
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 10].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 10].HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 11] = contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant);
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 11].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 11].HorizontalAlignment = Excel.XlHAlign.xlHAlignRight;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 12] = contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal);
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 12].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 12].HorizontalAlignment = Excel.XlHAlign.xlHAlignRight;
+
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 13] = (contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant)
+        //                                                           - contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum))
+        //                                                                                  .Sum(f => f.Encaissements.Sum(enc => enc.Montant)));
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 13].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+        //            xlWorkSheet.Cells[numOrdre + iDepart, 13].HorizontalAlignment = Excel.XlHAlign.xlHAlignRight;
+
+        //            //lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Max(f => f.EtatAvancement.DateSaisieAvancement.HasValue ? f.EtatAvancement.DateSaisieAvancement.Value : dateReference).ToShortDateString());
+        //            //lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.EtatAvancement.TypeEtatAvancement.TauxDecaissement).ToString("###") + "%");
+        //            //lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.Montant).ToString("### ### ##0"));
+        //            //lviContrat.SubItems.Add(contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal).ToString("### ### ##0"));
+        //            ////lviContrat.SubItems.Add((contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.Montant) - contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal)).ToString("### ### ###"));
+        //            //lviContrat.SubItems.Add((contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.Montant) - contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.Encaissements.Sum(enc => enc.Montant))).ToString("### ### ##0"));
+
+        //            numOrdre++;
+        //        }
+
+        //        xlApp.Visible = true;
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(this, "Erreur:..." + ex.Message,
+        //            "Prosopis - Gestion du recouvrement résa", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+        //    finally
+        //    {
+        //        this.Cursor = Cursors.Default;
+        //    }
+        //}
     }
 }

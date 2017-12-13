@@ -118,6 +118,8 @@
             this.cmdFermer = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.cmdExporter = new System.Windows.Forms.Button();
+            this.txtNbNombreContrats = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -138,6 +140,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(169)))), ((int)(((byte)(152)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.txtNbNombreContrats);
+            this.panel1.Controls.Add(this.label21);
             this.panel1.Controls.Add(this.txtChiffreAffaires);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.txtTotalCumulé);
@@ -1002,14 +1006,35 @@
             // 
             // cmdExporter
             // 
-            this.cmdExporter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdExporter.Location = new System.Drawing.Point(7, 616);
+            this.cmdExporter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.cmdExporter.Location = new System.Drawing.Point(7, 617);
             this.cmdExporter.Name = "cmdExporter";
-            this.cmdExporter.Size = new System.Drawing.Size(92, 34);
+            this.cmdExporter.Size = new System.Drawing.Size(92, 29);
             this.cmdExporter.TabIndex = 251;
             this.cmdExporter.Text = "Exporter";
             this.cmdExporter.UseVisualStyleBackColor = true;
             this.cmdExporter.Click += new System.EventHandler(this.cmdExporter_Click);
+            // 
+            // txtNbNombreContrats
+            // 
+            this.txtNbNombreContrats.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtNbNombreContrats.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNbNombreContrats.Location = new System.Drawing.Point(127, 500);
+            this.txtNbNombreContrats.Name = "txtNbNombreContrats";
+            this.txtNbNombreContrats.Size = new System.Drawing.Size(100, 20);
+            this.txtNbNombreContrats.TabIndex = 260;
+            this.txtNbNombreContrats.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(3, 503);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(118, 13);
+            this.label21.TabIndex = 259;
+            this.label21.Text = "Nombre de contrats";
             // 
             // FrmRecouvrementDepot
             // 
@@ -1130,5 +1155,7 @@
         private System.Windows.Forms.ToolStripMenuItem dossierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem encaissementsToolStripMenuItem;
         private System.Windows.Forms.Button cmdExporter;
+        private System.Windows.Forms.TextBox txtNbNombreContrats;
+        private System.Windows.Forms.Label label21;
     }
 }

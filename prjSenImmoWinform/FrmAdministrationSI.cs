@@ -40,17 +40,30 @@ namespace prjSenImmoWinform
                     using (var db = new SenImmoDataContext())
                     {
                         contrat = db.Contrats.Where(cont => cont.NumeroContrat == txtNumeroDossier.Text
-                         && (cont.Statut== StatutContrat.Actif || cont.Statut== StatutContrat.Cloturé)).SingleOrDefault();
-                        if(contrat!=null)
+                         && (cont.Statut == StatutContrat.Actif || cont.Statut == StatutContrat.Cloturé)).SingleOrDefault();
+                        //contrat = db.Contrats.Find(2003);
+                        if (contrat!=null)
                         { 
                             txtTypeContrat.Text = contrat.TypeContrat.LibelleTypeContrat;
                             txtClient.Text = contrat.Client.NomComplet;
                             txtTotalEncaisse.Text = contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal).ToString("### ### ###");
                             txtTypeVilla.Text = contrat.Lot.TypeVilla.NomComplet;
-                            txtLot.Text = contrat.TypeContrat.CategorieContrat == CategorieContrat.Réservation ? contrat.Lot.NumeroLot : "";
+                            txtLot.Text = contrat.TypeContrat.CategorieContrat == CategorieContrat.Réservation ? contrat.Lot.NumeroLot : contrat.LotAttribue==true?contrat.Lot.NumeroLot:"";
                             txtPrixDeVente.Text=contrat.PrixFinal.ToString("### ### ###");
                             leContratEnCours = contrat;
                             cmdSupprimerContrat.Enabled = true;
+                            if(contrat.TypeContrat.CategorieContrat== CategorieContrat.Dépôt)
+                            { 
+                                cmdChangementLot.Visible = true;
+                                lbNouveauLot.Visible = true;
+                                txtNouveauLot.Visible = true;
+                            }
+                            else
+                            {
+                                cmdChangementLot.Visible = false;
+                                lbNouveauLot.Visible = false;
+                                txtNouveauLot.Visible = false;
+                            }
                         }
                     }
                     scope.Complete();
@@ -89,16 +102,17 @@ namespace prjSenImmoWinform
                             using (var db = new SenImmoDataContext())
                             {
                                 // Rectrouver le contrat et le client
-                                var contrat = db.Contrats.Where(cont => cont.NumeroContrat == txtNumeroDossier.Text && cont.Statut==StatutContrat.Actif).SingleOrDefault();
+                                var contrat = db.Contrats.Where(cont => cont.NumeroContrat == txtNumeroDossier.Text && cont.Statut == StatutContrat.Actif).SingleOrDefault();
+                                //var contrat = db.Contrats.Find(2003);
                                 var client = db.Clients.Find(contrat.ClientID);
                                 //Suppression des encaissements
-                                List<int> listeEncaissementGlobalIDs=new List<int>();
+                                List<int> listeEncaissementGlobalIDs = new List<int>();
                                 foreach (var encG in contrat.EncaissementGlobals)
                                 {
                                     listeEncaissementGlobalIDs.Add(encG.ID);
                                 }
                                 var encaissements = db.Encaissements.Where(enc => listeEncaissementGlobalIDs.Contains(enc.EncaissementGlobalId.Value));
-                                
+
 
                                 db.Encaissements.RemoveRange(encaissements);
 
@@ -118,10 +132,10 @@ namespace prjSenImmoWinform
                                 //};
                                 foreach (var encG in contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD"))
                                 {
-                                    var encProspectCorrespondant = db.EncaissementProspects.FirstOrDefault(encPros => encPros.NumeroEncaissement== encG.NumeroEncaissement
-                                                                   && encPros.DateEncaissement==encG.DateEncaissement
-                                                                   && encPros.MontantGlobal==encPros.MontantGlobal);
-                                    if (encProspectCorrespondant==null)
+                                    var encProspectCorrespondant = db.EncaissementProspects.FirstOrDefault(encPros => encPros.NumeroEncaissement == encG.NumeroEncaissement
+                                                                   && encPros.DateEncaissement == encG.DateEncaissement
+                                                                   && encPros.MontantGlobal == encPros.MontantGlobal);
+                                    if (encProspectCorrespondant == null)
                                     {
                                         //Créer un encaissement prospect
                                         var encaissementATransferer = new EncaissementProspect()
@@ -182,12 +196,7 @@ namespace prjSenImmoWinform
                         }
                         MessageBox.Show(this, "Opération terminée avec succes!!!", "Prosopis - Scripts d'administration", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        txtTypeContrat.Text = string.Empty;
-                        txtClient.Text = string.Empty;
-                        txtTotalEncaisse.Text = string.Empty;
-                        txtTypeVilla.Text = string.Empty; 
-                        txtLot.Text = string.Empty;
-                        txtPrixDeVente.Text = string.Empty;
+                        EffacerFormContrat();
                     }
                 }
             }
@@ -200,6 +209,17 @@ namespace prjSenImmoWinform
             {
                 this.Cursor = Cursors.Default;
             }
+        }
+
+        private void EffacerFormContrat()
+        {
+            txtTypeContrat.Text = string.Empty;
+            txtClient.Text = string.Empty;
+            txtTotalEncaisse.Text = string.Empty;
+            txtTypeVilla.Text = string.Empty;
+            txtLot.Text = string.Empty;
+            txtPrixDeVente.Text = string.Empty;
+            txtNouveauLot.Text = string.Empty;
         }
 
         private void tabPage3_Click(object sender, EventArgs e)
@@ -475,6 +495,77 @@ namespace prjSenImmoWinform
         private void cmdFermer_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void cmdChangementLot_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Cursor = Cursors.WaitCursor;
+                if (MessageBox.Show(this, "Voulez vous réellement modifier le lot attribué à ce contrat de dépôt" + leContratEnCours.NumeroContrat + "?",
+                   "Prosopis - Scripts d'administration", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                {
+                    using (var scope = new TransactionScope())
+                    {
+                        Contrat contrat = null;
+
+                        using (var db = new SenImmoDataContext())
+                        {
+                            contrat = db.Contrats.Where(cont => cont.NumeroContrat == txtNumeroDossier.Text
+                             && (cont.Statut == StatutContrat.Actif || cont.Statut == StatutContrat.Cloturé)).SingleOrDefault();
+                            //contrat = db.Contrats.Find(2003);
+                            if (contrat != null)
+                            {
+                                var lot = db.Lots.Where(lt => lt.NumeroLot == txtNouveauLot.Text).FirstOrDefault();
+                                if (lot != null)
+                                {
+                                    if (lot.StatutLot != StatutLot.Libre)
+                                        MessageBox.Show(this, "Erreur: ce lot n'est pas libre!!!",
+                                                   "Prosopis - Scripts d'administration", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    else
+                                    {
+                                        var ancienLot = db.Lots.Find(contrat.LotId);
+                                        contrat.LotId = lot.ID;
+                                        lot.StatutLot = StatutLot.Reserve;
+                                        ancienLot.StatutLot = StatutLot.Libre;
+                                        db.SaveChanges();
+                                        MessageBox.Show(this, "Le lot a été changé avec succes",
+                                                    "Prosopis - Scripts d'administration", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                        EffacerFormContrat();
+                                    }
+                                }
+                                else
+                                {
+                                    MessageBox.Show(this, "Erreur: ce lot n'existe pas!!!",
+                                                    "Prosopis - Scripts d'administration", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                                //txtClient.Text = contrat.Client.NomComplet;
+                                //txtTotalEncaisse.Text = contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal).ToString("### ### ###");
+                                //txtTypeVilla.Text = contrat.Lot.TypeVilla.NomComplet;
+                                //txtLot.Text = contrat.TypeContrat.CategorieContrat == CategorieContrat.Réservation ? contrat.Lot.NumeroLot : "";
+                                //txtPrixDeVente.Text = contrat.PrixFinal.ToString("### ### ###");
+                                //leContratEnCours = contrat;
+                                //cmdSupprimerContrat.Enabled = true;
+                                //if (contrat.TypeContrat.CategorieContrat == CategorieContrat.Dépôt)
+                                //    cmdChangementLot.Visible = true;
+                                //else
+                                //    cmdChangementLot.Visible = false;
+                            }
+                        }
+                        scope.Complete();
+
+                    } 
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, "Erreur:..." + ex.Message,
+                       "Prosopis - Scripts d'administration", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                this.Cursor = Cursors.Default;
+            }
         }
     }
 }

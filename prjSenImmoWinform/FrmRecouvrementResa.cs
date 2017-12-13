@@ -242,7 +242,7 @@ namespace prjSenImmoWinform
                     lviContrat.SubItems.Add(contrat.NumeroContrat);
                     lviContrat.SubItems.Add(contrat.Lot.NumeroLot);
                     lviContrat.SubItems.Add(contrat.Lot.TypeVilla.CodeType);
-                    lviContrat.SubItems.Add(contrat.PrixFinal.ToString("### ### ###"));
+                    lviContrat.SubItems.Add(contrat.PrixFinal.ToString("### ### ##0"));
                     lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Max(f => f.EtatAvancement.DateSaisieAvancement.HasValue? f.EtatAvancement.DateSaisieAvancement.Value: dateReference).ToShortDateString());
                     lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.EtatAvancement.TypeEtatAvancement.TauxDecaissement).ToString("###") + "%");
                     lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.Montant).ToString("### ### ##0"));

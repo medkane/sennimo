@@ -158,11 +158,11 @@ namespace prjSenImmoWinform
                     lviContrat.SubItems.Add(contrat.Factures.Where(f => f.TypeFacture == TypeFacture.Echeance && f.Echue == true && f.FacturePayee == true).Count().ToString());
                     lviContrat.SubItems.Add(contrat.Factures.Where(f => f.TypeFacture == TypeFacture.Echeance && f.Echue == true && f.FacturePayee == false).Count().ToString());
 
-                    lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant).ToString("### ### ###"));
-                    lviContrat.SubItems.Add(contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal).ToString("### ### ###"));
+                    lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant).ToString("### ### ##0"));
+                    lviContrat.SubItems.Add(contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal).ToString("### ### ##0"));
                     lviContrat.SubItems.Add((contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant)
                                                                    - contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum))
-                                                                                          .Sum(f => f.Encaissements.Sum(enc => enc.Montant))).ToString("### ### ###"));
+                                                                                          .Sum(f => f.Encaissements.Sum(enc => enc.Montant))).ToString("### ### ##0"));
                     if (nbImpaye > 0)
                         lviContrat.ImageIndex = 0;
                     else
@@ -170,6 +170,7 @@ namespace prjSenImmoWinform
                     lviContrat.Tag = contrat.Id;
                     lvContratsDepot.Items.Add(lviContrat);
                 }
+                txtNbNombreContrats.Text = contratsDepot.Count().ToString();
                 txtChiffreAffaires.Text = contratsDepot.Sum(contrat => contrat.PrixFinal).ToString("### ### ### ##0");
                 txtTotalCumulé.Text = contratsDepot.Sum(contrat => contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant)).ToString("### ### ### ##0");
                 txtTotalEncaissé.Text= contratsDepot.Sum(contrat => contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal)).ToString("### ### ### ##0");
