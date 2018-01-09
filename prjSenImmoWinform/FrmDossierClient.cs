@@ -36,7 +36,7 @@ namespace prjSenImmoWinform
                 clientRep = new ClientRepository();
                 ilotRep = new IlotRepository();
                 tcDetailsDossierClient.TabPages.Remove(tabPage4);
-                if (Tools.Tools.AgentEnCours.Role.CodeRole != "CMC" && Tools.Tools.AgentEnCours.Role.CodeRole != "ADM")
+                if (Tools.Tools.AgentEnCours.Role.CodeRole != "ADM")
                 {
                     cmdDesistement.Enabled = false;
                 }
@@ -205,7 +205,11 @@ namespace prjSenImmoWinform
                     pTitreContrat.BackColor = Color.FromArgb(193, 205, 193);
                     if (tcDetailsDossierClient.TabPages.Count == 4)
                         tcDetailsDossierClient.TabPages.Remove(tabPage4);
-                    cmdDesistement.Visible = true;
+                    if (Tools.Tools.AgentEnCours.Role.CodeRole == "ADM")
+                    {
+                        cmdDesistement.Visible = true;
+                    }
+                    
                 }
                 if (leClientEncours.Type == TypeClient.Résilié)
                 {
@@ -323,6 +327,7 @@ namespace prjSenImmoWinform
                         if (lesEtatsAvancementsActifs.Count() > 0)
                         {
                             iNiveauAvancement = lesEtatsAvancementsActifs.Max(ea => ea.TypeEtatAvancement.ordre);
+
                             if (leContratEnCours.Lot.EtatsAvancements.Where(ea => ea.Actif == true && ea.TypeEtatAvancement.AppelFonds == true).Count() > 0)
                             {
                                 iNiveauApelDeFond = leContratEnCours.Lot.EtatsAvancements.Where(ea => ea.Actif == true && ea.TypeEtatAvancement.AppelFonds == true).Max(ea => ea.TypeEtatAvancement.ordre);
@@ -336,6 +341,7 @@ namespace prjSenImmoWinform
                             iNiveauAvancement = 2;
                         }
                         var niveauAvancementEnCours = ilotRep.GetNiveauAvancement(iNiveauAvancement);
+
 
                         if (niveauAvancementEnCours != null)
                         {

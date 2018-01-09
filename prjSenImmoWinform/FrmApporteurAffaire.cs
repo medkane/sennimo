@@ -77,8 +77,7 @@ namespace prjSenImmoWinform
                                                                                                             EmailAgence=af.EmailAgence,
                                                                                                             Gerant=af.NomGerant,
                                                                                                             Taux=af.TauxCommission,
-                                                                                                            Contrats = af.Contrats.Count()
-
+                                                                                                            Contrats = af.Contrats.Where(cont => cont.Statut == StatutContrat.Actif || cont.Statut == StatutContrat.Cloturé).Count()
                                                                                                        });
                 
                 if (nom != string.Empty)
@@ -162,7 +161,7 @@ namespace prjSenImmoWinform
         {
             try
             {
-                var contratsApporteur = afRepo.GetAllContrats(apporteurAffaire);
+                var contratsApporteur = afRepo.GetAllContrats(apporteurAffaire).Where(cont => cont.Statut== StatutContrat.Actif || cont.Statut == StatutContrat.Cloturé);
 
 
 
@@ -265,7 +264,7 @@ namespace prjSenImmoWinform
             {
                 AfficherHistoriqueFacturesGlobales();
 
-                var contratsApporteur = afRepo.GetAllContrats(apporteurAffaire).ToList();
+                var contratsApporteur = afRepo.GetAllContrats(apporteurAffaire).Where(cont => cont.Statut == StatutContrat.Actif || cont.Statut == StatutContrat.Cloturé).ToList();
                 var lesContratsAFacturer = contratsApporteur.Where(cont => cont.FactureCommissions.Where(fact => fact.FactureGenere == false).Count() > 0);
                 if (lesContratsAFacturer.Count() >0)
                 {
@@ -814,7 +813,7 @@ namespace prjSenImmoWinform
 
                 xlWorkSheet.Cells[10, 1] = lApporteurAffairesEnCours.NomComplet;
 
-                var contratsApporteur = afRepo.GetAllContrats(lApporteurAffairesEnCours).ToList();
+                var contratsApporteur = afRepo.GetAllContrats(lApporteurAffairesEnCours).Where(cont => cont.Statut == StatutContrat.Actif || cont.Statut == StatutContrat.Cloturé).ToList();
                 var lesContratsAFacturer = contratsApporteur.Where(cont => cont.FactureCommissions.Where(fact => fact.FactureGenere == false).Count() > 0);
 
                 //
@@ -998,10 +997,10 @@ namespace prjSenImmoWinform
                 //}
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                MessageBox.Show(this, "Erreur:..." + ex.Message,
+                        "Prosopis - Gestion des apporteurs d'affaires", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {

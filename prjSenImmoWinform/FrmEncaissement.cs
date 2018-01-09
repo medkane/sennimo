@@ -620,6 +620,9 @@ namespace prjSenImmoWinform
                     rowTotal.Cells[4].Range.Bold = 1;
                 }
 
+                myBookmark = bookmarks["MontantEncaisseADate"];
+                bookmarkRange = myBookmark.Range;
+                bookmarkRange.Text = factures.Sum(fact => fact.Encaissements.Sum(enc => enc.Montant)).ToString("### ### ###");
 
                 myBookmark = bookmarks["DateEncaissement"];
                 bookmarkRange = myBookmark.Range;

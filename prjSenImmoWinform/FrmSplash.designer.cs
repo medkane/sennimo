@@ -109,7 +109,7 @@
             this.transparentLabel4.Size = new System.Drawing.Size(79, 26);
             this.transparentLabel4.TabIndex = 8;
             this.transparentLabel4.TabStop = false;
-            this.transparentLabel4.Text = "Version 4.2.11";
+            this.transparentLabel4.Text = "Version 4.2.13";
             this.transparentLabel4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.transparentLabel4.Click += new System.EventHandler(this.transparentLabel4_Click);
             // 

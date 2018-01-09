@@ -2060,6 +2060,28 @@ namespace prjSenImmoWinform.DAL
                 {
                     option.SeuilContratAtteint = true;
                     option.ContratGenere = false;
+                    try
+                    {
+                        decimal dMontantEncaisse = 0;
+                        decimal dMontantSeuil;
+                        var encaissements = leProspect.EncaissementProspects.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD")
+                            .OrderBy(enc => enc.DateEncaissement).ToList();
+                        foreach (EncaissementProspect encaissement in encaissements)
+                        {
+                            dMontantEncaisse += encaissement.MontantGlobal;
+                            dMontantSeuil = option.PrixDeVente * option.TypeContrat.SeuilSouscription / 100;
+                            if (dMontantEncaisse >= dMontantSeuil)
+                            {
+                                option.DateAtteinteSeuil = encaissement.DateEncaissement;
+
+                                break;
+                            }
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine(": Contrat " + option.Id);
+                    }
                 }
 
                 DB.SaveChanges();
@@ -2113,6 +2135,29 @@ namespace prjSenImmoWinform.DAL
                 {
                     option.SeuilContratAtteint = true;
                     option.ContratGenere = false;
+
+                    try
+                    {
+                        decimal dMontantEncaisse=0;
+                        decimal dMontantSeuil;
+                        var encaissements = leProspect.EncaissementProspects.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD")
+                            .OrderBy(enc => enc.DateEncaissement).ToList();
+                        foreach (EncaissementProspect encaissement in encaissements)
+                        {
+                            dMontantEncaisse += encaissement.MontantGlobal;
+                            dMontantSeuil = option.PrixDeVente * option.TypeContrat.SeuilSouscription / 100;
+                            if (dMontantEncaisse >= dMontantSeuil)
+                            {
+                                option.DateAtteinteSeuil = encaissement.DateEncaissement;
+                               
+                                break;
+                            }
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine(": Contrat " + option.Id );
+                    }
                 }
 
                 DB.SaveChanges();

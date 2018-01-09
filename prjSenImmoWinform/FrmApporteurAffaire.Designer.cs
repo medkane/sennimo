@@ -100,9 +100,9 @@
             this.dgContrats = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.chkFacturesGenerees = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dgFactures = new System.Windows.Forms.DataGridView();
-            this.cmdFacturer = new System.Windows.Forms.Button();
             this.txtMontantTotalNet = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -113,9 +113,9 @@
             this.dgFactureCommissionsEchues = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgFacturesCommissions = new System.Windows.Forms.DataGridView();
+            this.cmdFacturer = new System.Windows.Forms.Button();
             this.cmdReglerCommission = new System.Windows.Forms.Button();
             this.chkVoirListeApporteurs = new System.Windows.Forms.CheckBox();
-            this.chkFacturesGenerees = new System.Windows.Forms.CheckBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pCommande.SuspendLayout();
@@ -169,7 +169,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNomRecherche.Location = new System.Drawing.Point(35, 7);
             this.txtNomRecherche.Name = "txtNomRecherche";
-            this.txtNomRecherche.Size = new System.Drawing.Size(322, 20);
+            this.txtNomRecherche.Size = new System.Drawing.Size(325, 20);
             this.txtNomRecherche.TabIndex = 134;
             // 
             // label3
@@ -184,7 +184,7 @@
             // cmdRechercher
             // 
             this.cmdRechercher.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdRechercher.Location = new System.Drawing.Point(366, 3);
+            this.cmdRechercher.Location = new System.Drawing.Point(366, 2);
             this.cmdRechercher.Name = "cmdRechercher";
             this.cmdRechercher.Size = new System.Drawing.Size(75, 30);
             this.cmdRechercher.TabIndex = 4;
@@ -898,6 +898,17 @@
             this.panel3.Size = new System.Drawing.Size(720, 157);
             this.panel3.TabIndex = 225;
             // 
+            // chkFacturesGenerees
+            // 
+            this.chkFacturesGenerees.AutoSize = true;
+            this.chkFacturesGenerees.Location = new System.Drawing.Point(136, 126);
+            this.chkFacturesGenerees.Name = "chkFacturesGenerees";
+            this.chkFacturesGenerees.Size = new System.Drawing.Size(114, 17);
+            this.chkFacturesGenerees.TabIndex = 230;
+            this.chkFacturesGenerees.Text = "Factures générées";
+            this.chkFacturesGenerees.UseVisualStyleBackColor = true;
+            this.chkFacturesGenerees.CheckedChanged += new System.EventHandler(this.chkFacturesGenerees_CheckedChanged);
+            // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -926,21 +937,6 @@
             this.dgFactures.Size = new System.Drawing.Size(709, 114);
             this.dgFactures.TabIndex = 145;
             this.dgFactures.DoubleClick += new System.EventHandler(this.dgFactures_DoubleClick);
-            // 
-            // cmdFacturer
-            // 
-            this.cmdFacturer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.cmdFacturer.Enabled = false;
-            this.cmdFacturer.Image = global::prjSenImmoWinform.Properties.Resources.Invoice_16;
-            this.cmdFacturer.Location = new System.Drawing.Point(827, 533);
-            this.cmdFacturer.Name = "cmdFacturer";
-            this.cmdFacturer.Size = new System.Drawing.Size(79, 31);
-            this.cmdFacturer.TabIndex = 151;
-            this.cmdFacturer.Text = "Générer";
-            this.cmdFacturer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.cmdFacturer.UseVisualStyleBackColor = true;
-            this.cmdFacturer.Visible = false;
-            this.cmdFacturer.Click += new System.EventHandler(this.cmdFacturer_Click);
             // 
             // txtMontantTotalNet
             // 
@@ -1070,6 +1066,21 @@
             this.dgFacturesCommissions.Size = new System.Drawing.Size(716, 285);
             this.dgFacturesCommissions.TabIndex = 144;
             // 
+            // cmdFacturer
+            // 
+            this.cmdFacturer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.cmdFacturer.Enabled = false;
+            this.cmdFacturer.Image = global::prjSenImmoWinform.Properties.Resources.Invoice_16;
+            this.cmdFacturer.Location = new System.Drawing.Point(827, 533);
+            this.cmdFacturer.Name = "cmdFacturer";
+            this.cmdFacturer.Size = new System.Drawing.Size(79, 31);
+            this.cmdFacturer.TabIndex = 151;
+            this.cmdFacturer.Text = "Générer";
+            this.cmdFacturer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.cmdFacturer.UseVisualStyleBackColor = true;
+            this.cmdFacturer.Visible = false;
+            this.cmdFacturer.Click += new System.EventHandler(this.cmdFacturer_Click);
+            // 
             // cmdReglerCommission
             // 
             this.cmdReglerCommission.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -1095,17 +1106,6 @@
             this.chkVoirListeApporteurs.Text = "Voir la liste des apporteurs d\'affaires";
             this.chkVoirListeApporteurs.UseVisualStyleBackColor = true;
             this.chkVoirListeApporteurs.CheckedChanged += new System.EventHandler(this.chkVoirListeApporteurs_CheckedChanged);
-            // 
-            // chkFacturesGenerees
-            // 
-            this.chkFacturesGenerees.AutoSize = true;
-            this.chkFacturesGenerees.Location = new System.Drawing.Point(136, 126);
-            this.chkFacturesGenerees.Name = "chkFacturesGenerees";
-            this.chkFacturesGenerees.Size = new System.Drawing.Size(114, 17);
-            this.chkFacturesGenerees.TabIndex = 230;
-            this.chkFacturesGenerees.Text = "Factures générées";
-            this.chkFacturesGenerees.UseVisualStyleBackColor = true;
-            this.chkFacturesGenerees.CheckedChanged += new System.EventHandler(this.chkFacturesGenerees_CheckedChanged);
             // 
             // FrmApporteurAffaire
             // 

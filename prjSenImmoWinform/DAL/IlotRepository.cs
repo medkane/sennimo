@@ -386,6 +386,13 @@ namespace prjSenImmoWinform.DAL
                     etatAvancement.Actif = true;
                     etatAvancement.Commentaire = commentaire;
                 }
+
+                foreach (var etatAv in lot.EtatsAvancements)
+                {
+                    etatAv.Encours = false;
+                }
+                etatAvancement.Encours = true;
+
                 db.SaveChanges();
                 //GESTION DES APPELS DE FONDS
                 // Au cas où le lot est réservé ou en cours de réservation et 

@@ -39,6 +39,8 @@
             this.cmdMAJDateContrat = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.cmdMAJDateEntree = new System.Windows.Forms.Button();
+            this.cmdMAJDateFD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgResult)).BeginInit();
             this.SuspendLayout();
             // 
@@ -154,11 +156,33 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // cmdMAJDateEntree
+            // 
+            this.cmdMAJDateEntree.Location = new System.Drawing.Point(498, 440);
+            this.cmdMAJDateEntree.Name = "cmdMAJDateEntree";
+            this.cmdMAJDateEntree.Size = new System.Drawing.Size(157, 26);
+            this.cmdMAJDateEntree.TabIndex = 11;
+            this.cmdMAJDateEntree.Text = "MAJ Date Entree";
+            this.cmdMAJDateEntree.UseVisualStyleBackColor = true;
+            this.cmdMAJDateEntree.Click += new System.EventHandler(this.cmdMAJDateEntree_Click);
+            // 
+            // cmdMAJDateFD
+            // 
+            this.cmdMAJDateFD.Location = new System.Drawing.Point(661, 440);
+            this.cmdMAJDateFD.Name = "cmdMAJDateFD";
+            this.cmdMAJDateFD.Size = new System.Drawing.Size(188, 26);
+            this.cmdMAJDateFD.TabIndex = 12;
+            this.cmdMAJDateFD.Text = "MAJ Date Frais de dossier 1900";
+            this.cmdMAJDateFD.UseVisualStyleBackColor = true;
+            this.cmdMAJDateFD.Click += new System.EventHandler(this.cmdMAJDateFD_Click);
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 475);
+            this.Controls.Add(this.cmdMAJDateFD);
+            this.Controls.Add(this.cmdMAJDateEntree);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.cmdMAJDateContrat);
@@ -192,5 +216,7 @@
         private System.Windows.Forms.Button cmdMAJDateContrat;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button cmdMAJDateEntree;
+        private System.Windows.Forms.Button cmdMAJDateFD;
     }
 }

@@ -392,6 +392,76 @@ namespace prjSenImmoWinform
 
             }
         }
+
+        private void cmdMAJDateEntree_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                decimal dMontantEncaisse = 0;
+                decimal dMontantSeuil = 0;
+                int i = 0;
+                foreach (Client client in db.Clients.Where(cl => cl.DateSouscription.Value.Year==1900 &&
+                    (cl.Type!= TypeClient.Client && cl.Type!= TypeClient.ClientEnCours && cl.Type!= TypeClient.Résilié)).ToList())
+                {
+                    try
+                    {
+                        var dateEnc = db.EncaissementProspects.Where(enc => enc.ProspectId == client.ID && enc.DateEncaissement.Value.Year!=1900).Min(enc => enc.DateEncaissement);
+                        if (dateEnc != null)
+                        { 
+                            client.DateSouscription = dateEnc;
+                            
+                            db.SaveChanges();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        continue;
+                    }
+                }
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur sur le client:" + ex.Message);
+
+            }
+        }
+
+        private void cmdMAJDateFD_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                decimal dMontantEncaisse = 0;
+                decimal dMontantSeuil = 0;
+                int i = 0;
+                foreach (EncaissementProspect encaissement in db.EncaissementProspects.Where(cl => cl.DateEncaissement.Value.Year == 1900).ToList())
+                {
+                    try
+                    {
+                        var dateFirstEnc = db.EncaissementProspects.Where(enc => enc.ProspectId == encaissement.ProspectId
+                                    && enc.DateEncaissement.Value.Year != 1900).Min(enc => enc.DateEncaissement);
+                        if (dateFirstEnc != null)
+                        {
+                            encaissement.DateEncaissement = dateFirstEnc;
+
+                            db.SaveChanges();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        continue;
+                    }
+                }
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur sur le client:" + ex.Message);
+
+            }
+        }
     }
 }
 

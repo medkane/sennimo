@@ -172,7 +172,7 @@ namespace prjSenImmoWinform
                 }
                 txtNbNombreContrats.Text = contratsDepot.Count().ToString();
                 txtChiffreAffaires.Text = contratsDepot.Sum(contrat => contrat.PrixFinal).ToString("### ### ### ##0");
-                txtTotalCumulé.Text = contratsDepot.Sum(contrat => contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant)).ToString("### ### ### ##0");
+                txtTotalCumulé.Text = contratsDepot.Sum(contrat => contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture != TypeFacture.FraisDossier)).Sum(f => f.Montant)).ToString("### ### ### ##0");
                 txtTotalEncaissé.Text= contratsDepot.Sum(contrat => contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal)).ToString("### ### ### ##0");
                 txtTotalRestant.Text = contratsDepot.Sum(contrat => (contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Montant) 
                                                                    - contrat.Factures.Where(f => f.Echue == true && (f.TypeFacture == TypeFacture.Echeance || f.TypeFacture == TypeFacture.DepotMinimum)).Sum(f => f.Encaissements.Sum(enc => enc.Montant)))).ToString("### ### ### ##0");

@@ -233,6 +233,7 @@ namespace prjSenImmoWinform
                     contratsResa = contratsResa.Where(cont => cont.Factures.Where(fact => fact.TypeFacture == TypeFacture.AppelDeFond && fact.Echue == true
                         && fact.FacturePayee == false).Count() <= 0).ToList();
                 DateTime dateReference = DateTime.Parse("01/01/1900");
+                var contr = contratsResa.ToList();
                 foreach (Contrat    contrat in contratsResa.ToList())
                 {
                     int nbImpaye = contrat.Factures.Where(fact => fact.TypeFacture == TypeFacture.AppelDeFond && fact.Echue == true
@@ -243,7 +244,7 @@ namespace prjSenImmoWinform
                     lviContrat.SubItems.Add(contrat.Lot.NumeroLot);
                     lviContrat.SubItems.Add(contrat.Lot.TypeVilla.CodeType);
                     lviContrat.SubItems.Add(contrat.PrixFinal.ToString("### ### ##0"));
-                    lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Max(f => f.EtatAvancement.DateSaisieAvancement.HasValue? f.EtatAvancement.DateSaisieAvancement.Value: dateReference).ToShortDateString());
+                    lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Active == true && f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Max(f => f.EtatAvancement.DateSaisieAvancement.HasValue? f.EtatAvancement.DateSaisieAvancement.Value: dateReference).ToShortDateString());
                     lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.EtatAvancement.TypeEtatAvancement.TauxDecaissement).ToString("###") + "%");
                     lviContrat.SubItems.Add(contrat.Factures.Where(f => f.Echue == true && f.TypeFacture != TypeFacture.FraisDossier).Sum(f => f.Montant).ToString("### ### ##0"));
                     lviContrat.SubItems.Add(contrat.EncaissementGlobals.Where(enc => enc.NumeroEncaissement.Substring(0, 4) != "ENFD").Sum(enc => enc.MontantGlobal).ToString("### ### ##0"));

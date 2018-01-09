@@ -193,14 +193,14 @@ namespace prjSenImmoWinform
                         { 
                             lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c =>c.Statut== StatutContrat.Actif).TypeContrat.LibelleTypeContrat);
                             lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).Lot.TypeVilla.CodeType);
-                            lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).TypeContrat.CategorieContrat == CategorieContrat.Réservation ? client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).Lot.NumeroLot : "");
+                            lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).TypeContrat.CategorieContrat == CategorieContrat.Réservation || (client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).TypeContrat.CategorieContrat == CategorieContrat.Dépôt && client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).LotAttribue == true) ? client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).Lot.NumeroLot : "");
                             lviClient.ImageIndex = client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Actif).TypeContrat.CategorieContrat == CategorieContrat.Réservation ? 1 : 0;
                         }
                         else
                         {
                             lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).TypeContrat.LibelleTypeContrat);
                             lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).Lot.TypeVilla.CodeType);
-                            lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).TypeContrat.CategorieContrat == CategorieContrat.Réservation ? client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).Lot.NumeroLot : "");
+                            lviClient.SubItems.Add(client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).TypeContrat.CategorieContrat == CategorieContrat.Réservation  || (client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).TypeContrat.CategorieContrat == CategorieContrat.Dépôt && client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).LotAttribue==true) ? client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).Lot.NumeroLot : "");
                             lviClient.ImageIndex = client.Contrats.FirstOrDefault(c => c.Statut == StatutContrat.Résilié).TypeContrat.CategorieContrat == CategorieContrat.Réservation ? 1 : 0;
                         }
                         lviClient.Tag = client;
